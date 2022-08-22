@@ -5,7 +5,6 @@ high=int(input("ป้อนส่วนสูงของคุณ (cm) :"))/10
 
 bmi=(weight/(high**2))
 
-result="ไม่ทราบค่าที่ชัดเจน"
 if  bmi >=0 and bmi<18.5 :
     result="ต่ำกว่าเกณ"
 elif bmi >=18.5 and bmi <=22.9:
